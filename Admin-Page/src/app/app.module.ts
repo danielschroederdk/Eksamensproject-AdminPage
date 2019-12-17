@@ -24,6 +24,9 @@ import {MatCardModule} from '@angular/material/card';
 import {ScrollingModule} from '@angular/cdk/scrolling';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { MainComponent } from './main/main.component';
+import { RequestAddComponent } from './request/request-add/request-add.component';
+import { RequestDetailsComponent } from './request/request-details/request-details.component';
+import { RequestListComponent } from './request/request-list/request-list.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +37,9 @@ import { MainComponent } from './main/main.component';
     CompositionListComponent,
     HeaderComponent,
     MainComponent,
+    RequestAddComponent,
+    RequestDetailsComponent,
+    RequestListComponent,
   ],
   imports: [
     BrowserModule,
