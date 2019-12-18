@@ -40,8 +40,8 @@ export class AuthenticationService {
     return this.getUser() ? this.getUser().token : undefined;
   }
 
-  getUsername(): string {
-    return this.getUser() ? this.getUser().name : undefined;
+  getUserId(): number {
+    return this.getUser() ? this.getUser().id : undefined;
   }
 
   logout(): void {

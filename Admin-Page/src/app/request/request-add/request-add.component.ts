@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup} from '@angular/forms';
-import {Composition} from '../../models/composition';
 import {RequestService} from '../../services/request.service';
 import {Router} from '@angular/router';
 import {Request} from '../../models/request';
